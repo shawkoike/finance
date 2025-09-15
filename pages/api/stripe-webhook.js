@@ -31,7 +31,7 @@ export default async function handler(req, res) {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        text: `✅ サブスク決済完了\n👤 名前: ${name}\n📧 メール: ${email}\n🏠 住所: ${address}\n💰 金額: ${amount}円`,
+        text: `✅ サブスク決済完了\n👤 名前: ${name}\n📧 メール: ${email}`,
       }),
     });
   }
